@@ -1,13 +1,13 @@
 def line_method(numinline)
   #lma = line method array
-  lma = []
+  line_array = []
   if numinline.length == 0
     puts "The line is currently empty"
   else
-    lma.each.with_index(o) do |name, index|
-      lma.push("#{index}. #{name}")
+    line_array.each.with_index(0) do |name, index|
+      line_array.push("#{index}. #{name}")
     end
-    puts "The line is: #{lma.join(" ")}"
+    puts "The line is: #{line_array.join(" ")}"
   end
 end
 
