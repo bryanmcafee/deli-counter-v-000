@@ -15,3 +15,11 @@ def take_a_number(katz_deli, name)
 katz_deli.push(name)
 puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
 end
+
+def now_serving(next)
+  if next.empty
+    puts "There is nobody waiting to be served!"
+  else puts "Currently serving #{next[0]}."
+    next.shift
+  end
+end
