@@ -1,3 +1,5 @@
+katz_deli = []
+
 def line(numinline)
   #lma = line method array
   line_array = []
