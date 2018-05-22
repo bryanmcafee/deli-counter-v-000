@@ -1,4 +1,4 @@
-def line_method(numinline)
+def line(numinline)
   #lma = line method array
   line_array = []
   if numinline.length == 0
