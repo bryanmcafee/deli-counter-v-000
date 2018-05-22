@@ -2,7 +2,7 @@ def line_method(numinline)
   #lma = line method array
   line_array = []
   if numinline.length == 0
-    puts "The line is currently empty"
+    puts "The line is currently empty."
   else
     line_array.each.with_index(0) do |name, index|
       line_array.push("#{index}. #{name}")
