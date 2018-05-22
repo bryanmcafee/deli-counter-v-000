@@ -16,10 +16,10 @@ katz_deli.push(name)
 puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
 end
 
-def now_serving(next)
-  if next.empty
+def now_serving(nextil)
+  if nextil.empty
     puts "There is nobody waiting to be served!"
-  else puts "Currently serving #{next[0]}."
-    next.shift
+  else puts "Currently serving #{nextil[0]}."
+    nextil.shift
   end
 end
